@@ -8,7 +8,7 @@ var friends = require('./app/data/friends.js');
 
 
 // creates express server 
-var app = express();
+var app = express(); 
 
 // sets port for deploy OR use 8080 on local 
 var PORT = process.env.PORT || 8080;
